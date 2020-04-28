@@ -9,7 +9,7 @@
 - README.md.
 - diagram_factory_int.rb.
 - diagram_factory_int.rb method declarations. Declared 'initialize(inst = nil
-)', 'diagram()', 'instance()', 'diagram_exists()', 'instance=(inst = nil
+)', 'diagram()', 'instance()', 'diagram_exists(k = nil)', 'instance=(inst = nil
 )', '[]=(inst = nil, d_inst = nil)', and '[](inst = nil)'.
 - diagram_factory_int_test.rb method declaration tests.
 
@@ -20,3 +20,4 @@
 ### Fixed
 
 - test_helper.rb's 'require' diagram_factory_int statement.
+- Gem Specification file formatting.

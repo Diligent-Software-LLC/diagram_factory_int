@@ -8,13 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors               = ["Diligent Software LLC"]
   spec.email                 = ["contact@diligentsoftware.org"]
   spec.summary               = %q{A DiagramFactory library interface.}
-  spec.description           = %q{A DiagramFactory library interface. Donations support
-continuous improvement and maintenance. The aim is a reliable, integrable,
-and endurable Diagram library. Make a donation at the project's collective
-page: https://opencollective.com/diagram. One-time and recurring donations
-are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
-  spec.homepage              = "https://docs.diligentsoftware.org/diagram-1/factory/" +
-      "interface"
+  spec.description           = %q{A DiagramFactory library interface. Donations
+support continuous improvement and maintenance. The aim is a reliable,
+integrable, and endurable Diagram library. Make a donation at the project's
+collective page: https://opencollective.com/diagram. One-time and recurring
+donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
+  spec.homepage              =
+      "https://docs.diligentsoftware.org/diagram-1/factory/interface"
   spec.license               = "GPL-3.0"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
 

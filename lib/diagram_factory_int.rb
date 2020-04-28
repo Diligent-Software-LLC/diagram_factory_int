@@ -39,12 +39,14 @@ class DiagramFactoryInt
   def instance()
   end
 
-  # diagram_exists().
+  # diagram_exists(k = nil).
   # @description
   #   Predicate. Verifies instance's diagram exists.
+  # @param k [String, NilClass]
+  #   An instance kind. Nil in the case kinds are irrelevant.
   # @return [TrueClass, FalseClass]
   #   True in the case instance's diagram exists. False otherwise.
-  def diagram_exists()
+  def diagram_exists(k = nil)
   end
 
   private

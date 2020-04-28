@@ -40,7 +40,7 @@ class DiagramFactoryIntTest < Minitest::Test
 
   # test_pubim_dec().
   # @description
-  #   'diagram()', 'instance()', and 'diagram_exists()' were declared.
+  #   'diagram()', 'instance()', and 'diagram_exists(k = nil)' were declared.
   def test_pubim_dec()
 
     assert_includes(@pub_i_m, :diagram)
