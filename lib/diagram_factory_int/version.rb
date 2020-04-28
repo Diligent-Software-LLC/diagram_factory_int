@@ -7,8 +7,8 @@
 #   A DiagramFactory library interface.
 # @attr instance [.]
 #   Any diagrammable instance.
-# @attr inventory [Hash]
-#   Stores a Diagram instance.
+# @attr inventory [Set]
+#   Stores Diagram instances.
 class DiagramFactoryInt
   VERSION = '0.1.0'.freeze()
 end
