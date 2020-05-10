@@ -26,11 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5de2680e-a142-41f3-a3d9-838258955a94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/diagram_factory_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram_factory_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/diagram_factory_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram_factory_int/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/diagram_factory_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/diagram_factory_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +127,7 @@
       <workItem from="1588018112566" duration="465000" />
       <workItem from="1588027083035" duration="3690000" />
       <workItem from="1588103394303" duration="2657000" />
-      <workItem from="1589125113532" duration="3848000" />
+      <workItem from="1589125113532" duration="4398000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification file. Added README.md.">
       <created>1588030850627</created>
@@ -161,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588106676973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Development Complete&#10;&#10;Updated YARDocumentation on existing methods and the class. Edited 'diagram(diagrammable = nil)'. Added 'self.instance()', 'diagram_exists(diagrammable = nil)', 'k_diagram_exists(diagrammable = nil)', 'inventory()', 'inventory=()', 'reassemble(diagrammable = nil)', 'diagrams(diagrammable = nil)', 'kind_diagram(diagrammable = nil)', 'store_diagram(diagrammable = nil, diagram = nil)', 'initialize()', and 'DiagramFactory.new()'. Added method declaration tests.">
+      <created>1589133746301</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589133746301</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Diagram Subsystem:{ Factory } Component: Interface Sprints: 1 State:{Prepare Deployment} " />
@@ -190,7 +193,8 @@
     <MESSAGE value="Development Complete&#10;&#10;Fixed version.rb YARDocumentation. Added diagram_factory_int.rb. Declared 'initialize(inst = nil)', 'diagram()', 'instance()', 'diagram_exists()', 'instance=(inst = nil)', '[]=(inst = nil, d_inst = nil)', and '[](inst = nil)'. Added diagram_factory_int_test.rb method declaration tests. Formatted diagram_factory_int_test.rb. Fixed test_helper.rb 'require' statement." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Fixed 'diagram_exists()''s argument. Fixed the Gem Specification file's formatting. Updated Changelog.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Fixed 'diagram_exists()''s argument. Fixed the Gem Specification file's formatting. Updated Changelog.md." />
+    <MESSAGE value="Development Complete&#10;&#10;Updated YARDocumentation on existing methods and the class. Edited 'diagram(diagrammable = nil)'. Added 'self.instance()', 'diagram_exists(diagrammable = nil)', 'k_diagram_exists(diagrammable = nil)', 'inventory()', 'inventory=()', 'reassemble(diagrammable = nil)', 'diagrams(diagrammable = nil)', 'kind_diagram(diagrammable = nil)', 'store_diagram(diagrammable = nil, diagram = nil)', 'initialize()', and 'DiagramFactory.new()'. Added method declaration tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Updated YARDocumentation on existing methods and the class. Edited 'diagram(diagrammable = nil)'. Added 'self.instance()', 'diagram_exists(diagrammable = nil)', 'k_diagram_exists(diagrammable = nil)', 'inventory()', 'inventory=()', 'reassemble(diagrammable = nil)', 'diagrams(diagrammable = nil)', 'kind_diagram(diagrammable = nil)', 'store_diagram(diagrammable = nil, diagram = nil)', 'initialize()', and 'DiagramFactory.new()'. Added method declaration tests." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -198,10 +202,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="433" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588018157050" />
-    <state x="143" y="71" width="1353" height="872" key="CommitChangelistDialog2" timestamp="1588106676700">
+    <state x="143" y="71" width="1353" height="872" key="CommitChangelistDialog2" timestamp="1589133745777">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="143" y="71" width="1353" height="872" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588106676700" />
+    <state x="143" y="71" width="1353" height="872" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589133745777" />
     <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1589128506277">
       <screen x="0" y="23" width="1680" height="975" />
     </state>

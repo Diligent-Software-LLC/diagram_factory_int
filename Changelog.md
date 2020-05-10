@@ -1,5 +1,24 @@
 # Changelog
 
+## v1.0.0, 2020-05-09
+
+### Added
+
+- 'self.instance()', 'diagram_exists(diagrammable = nil)', 
+'k_diagram_exists(diagrammable = nil)', 'inventory()', 'inventory=()', 
+'reassemble(diagrammable = nil)', 'diagrams(diagrammable = nil)', 
+'kind_diagram(diagrammable = nil)', 
+'store_diagram(diagrammable = nil, diagram = nil)', 'initialize()', and 
+'DiagramFactory.new()'.
+- Method declaration tests.
+
+### Edited
+
+- Updated YARDocumentation on existing methods and the class.
+- 'diagram()' signature.
+
+### Fixed
+
 ## v0.1.0, 2020-04-28
 
 ### Added
