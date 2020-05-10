@@ -5,10 +5,12 @@
 # @abstract
 # @class_description
 #   A DiagramFactory library interface.
-# @attr instance [.]
-#   Any diagrammable instance.
+# @attr instance [DiagramFactory]
+#   A DiagramFactory singleton instance.
 # @attr inventory [Set]
-#   Stores Diagram instances.
+#   The elements are hashes containing diagrams. The keys are children
+#   instances, and the values are Sets. The value Set elements are particular
+#   kind diagrams.
 class DiagramFactoryInt
-  VERSION = '0.1.0'.freeze()
+  VERSION = '1.0.0'.freeze()
 end

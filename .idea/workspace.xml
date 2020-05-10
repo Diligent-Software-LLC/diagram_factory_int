@@ -27,9 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5de2680e-a142-41f3-a3d9-838258955a94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagram_factory_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/diagram_factory_int.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/diagram_factory_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram_factory_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/diagram_factory_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram_factory_int/version.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/diagram_factory_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/diagram_factory_int_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="358" />
+    <option name="myElementSize" value="384" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -70,6 +70,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="ytplugin.issueListCompactView" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifacts" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mkdir artifacts" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="DiagramFactoryIntTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -120,7 +130,8 @@
       <updated>1588018111192</updated>
       <workItem from="1588018112566" duration="465000" />
       <workItem from="1588027083035" duration="3690000" />
-      <workItem from="1588103394303" duration="2252000" />
+      <workItem from="1588103394303" duration="2657000" />
+      <workItem from="1589125113532" duration="3848000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification file. Added README.md.">
       <created>1588030850627</created>
@@ -143,10 +154,17 @@
       <option name="project" value="LOCAL" />
       <updated>1588104730510</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prepare Deployment&#10;&#10;Fixed 'diagram_exists()''s argument. Fixed the Gem Specification file's formatting. Updated Changelog.md.">
+      <created>1588106676973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588106676973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Diagram Subsystem:{ Factory } Component: Interface Sprints: 1 State:{ Prepare Deployment} " />
+        <option name="defaultSearch" value="project: Diagram Subsystem:{ Factory } Component: Interface Sprints: 1 State:{Prepare Deployment} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -159,7 +177,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -169,7 +189,8 @@
     <MESSAGE value="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification file. Added README.md." />
     <MESSAGE value="Development Complete&#10;&#10;Fixed version.rb YARDocumentation. Added diagram_factory_int.rb. Declared 'initialize(inst = nil)', 'diagram()', 'instance()', 'diagram_exists()', 'instance=(inst = nil)', '[]=(inst = nil, d_inst = nil)', and '[](inst = nil)'. Added diagram_factory_int_test.rb method declaration tests. Formatted diagram_factory_int_test.rb. Fixed test_helper.rb 'require' statement." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Fixed 'diagram_exists()''s argument. Fixed the Gem Specification file's formatting. Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Fixed 'diagram_exists()''s argument. Fixed the Gem Specification file's formatting. Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -177,40 +198,44 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="433" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588018157050" />
-    <state x="143" y="71" width="1353" height="872" key="CommitChangelistDialog2" timestamp="1588104730264">
+    <state x="143" y="71" width="1353" height="872" key="CommitChangelistDialog2" timestamp="1588106676700">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="143" y="71" width="1353" height="872" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588104730264" />
-    <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1588106354541">
+    <state x="143" y="71" width="1353" height="872" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588106676700" />
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1589128506277">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1588106354541" />
-    <state width="1545" height="270" key="GridCell.Tab.0.center" timestamp="1588106354540">
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589128506277" />
+    <state width="1545" height="270" key="GridCell.Tab.0.center" timestamp="1589128506276">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1588106354540" />
-    <state width="1545" height="270" key="GridCell.Tab.0.left" timestamp="1588106354540">
+    <state width="1545" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589128506276" />
+    <state width="1545" height="270" key="GridCell.Tab.0.left" timestamp="1589128506276">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1588106354540" />
-    <state width="1545" height="270" key="GridCell.Tab.0.right" timestamp="1588106354540">
+    <state width="1545" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589128506276" />
+    <state width="1545" height="270" key="GridCell.Tab.0.right" timestamp="1589128506277">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1588106354540" />
-    <state x="434" y="250" key="Vcs.Push.Dialog.v2" timestamp="1588104764552">
+    <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589128506277" />
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2" timestamp="1588109969558">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="434" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1588104764552" />
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1588109969558" />
     <state x="425" y="235" width="816" height="550" key="find.popup" timestamp="1588018521347">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="425" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1588018521347" />
-    <state x="498" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1588106347509">
+    <state x="499" y="235" width="670" height="675" key="run.anything.popup" timestamp="1588110048358">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="498" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1588106347509" />
+    <state x="499" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1588110048358" />
+    <state x="498" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589128982446">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="498" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589128982446" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/diagram_factory_int@DiagramFactoryIntTest.rcov" NAME="DiagramFactoryIntTest Coverage Results" MODIFIED="1588106351081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram_factory_int" />
+    <SUITE FILE_PATH="coverage/diagram_factory_int@DiagramFactoryIntTest.rcov" NAME="DiagramFactoryIntTest Coverage Results" MODIFIED="1589128502768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram_factory_int" />
   </component>
 </project>
